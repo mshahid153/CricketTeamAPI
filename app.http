@@ -1,0 +1,14 @@
+GET http://localhost:3000/players/
+###
+
+GET http://localhost:3000/players/11
+###
+
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "playerName": "MS Dhoni",
+  "jerseyNumber": 7,
+  "role": "Finisher"
+}
